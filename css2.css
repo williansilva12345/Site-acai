@@ -27,7 +27,7 @@ header {
 }
 
 .section1 div p {
-  color: orange;
+  color: red;
   text-align: center;
   font-size: 20px;
   margin-left: 50px;
@@ -90,7 +90,7 @@ hr {
 }
 
 .btn {
-  background: orange;
+  background: purple;
   padding: 5px;
   border-radius: 1px;
   letter-spacing: 3px;
