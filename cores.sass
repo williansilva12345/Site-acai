@@ -1,0 +1,47 @@
+// Definindo as variáveis
+$body: #7a2a55 // Cor de fundo do body
+$branco: white // Cor branca
+$titulo: "Hind Siliguri" // Fonte do título
+$size: 5rem // Tamanho da fonte
+
+// Aplicando a cor de fundo ao elemento body
+body 
+  background: $body // Define a cor de fundo do body
+
+// Estilos para o título
+.titulo 
+  font-size: $size // Tamanho da fonte
+  text-align: center // Alinhamento central
+  font-family: $titulo // Fonte do título
+  font-weight: 300 // Peso da fonte
+  font-style: normal // Estilo da fonte
+  color: $branco // Cor do texto
+
+// Definindo o mixin para centralizar elementos
+@mixin centerdiv 
+  display: flex // Usando flexbox
+  justify-content: center // Centraliza horizontalmente
+  list-style: none // Remove os marcadores da lista
+  margin: 20px // Margem de 20px
+
+// Usando o mixin em uma lista
+ul 
+  @include centerdiv // Aplica o mixin centerdiv
+
+// Definindo o mixin para links
+@mixin AL
+  text-decoration: none // Remove o sublinhado dos links
+  color: $branco // Cor do texto dos links
+  margin: $size // Margem igual ao tamanho definido
+
+// Aplicando o mixin aos links
+a 
+  @include AL // Aplica o mixin AL aos links
+ 
+.container
+  position:relative
+  
+	.logo
+		position:absolute
+		top:30px
+ 
