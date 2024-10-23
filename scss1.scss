@@ -28,15 +28,14 @@ header{
   color: $cortitulo; // Cor do texto
 }
 
-.section1 h1 {
- 
-   @extend .titulo;
-   padding:0%;
-   margin-top:30%;
-	text-align:center;
-	margin-left:90px;
-  
-  }
+section1 h1 {
+  @extend .titulo;
+  padding: 0%;
+  margin-top: 30%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
   .section1 div p{
   
 	  color:white;
