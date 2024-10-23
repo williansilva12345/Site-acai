@@ -18,6 +18,13 @@ header{
 
 }
 
+.tit{
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:0;
+}
 // Estilos para o título
 .titulo {
   font-size: $size; // Tamanho da fonte
@@ -102,7 +109,7 @@ a {
   
 .logo img{
 	
-	heigth:155px;
+	height:155px;
 	width : 150px;
 	border-radius:50%;
 	
@@ -112,6 +119,7 @@ a {
 	
 	.section1{
 	display:flex;
+
 	justify-content:space-around;
 	}
 	

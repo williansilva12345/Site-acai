@@ -10,6 +10,14 @@ header {
   margin: 0px;
 }
 
+.tit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
 .titulo, section1 h1 {
   font-size: 3rem;
   text-align: center;
@@ -68,7 +76,7 @@ a {
   text-align: center;
 }
 .container .logo img {
-  heigth: 155px;
+  height: 155px;
   width: 150px;
   border-radius: 50%;
 }
