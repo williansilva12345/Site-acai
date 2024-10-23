@@ -1,5 +1,5 @@
 body {
-  background: #7a2a55;
+  background: #9c389c;
   margin: 0px;
   padding: 0px;
 }
@@ -16,7 +16,7 @@ header {
   font-family: "Hind Siliguri";
   font-weight: 300;
   font-style: normal;
-  color: orange;
+  color: #eb9c4d;
 }
 
 .section1 h1 {
@@ -27,7 +27,7 @@ header {
 }
 
 .section1 div p {
-  color: red;
+  color: white;
   text-align: center;
   font-size: 20px;
   margin-left: 50px;
@@ -46,7 +46,7 @@ ul ul li a:nth-child(1) {
 
 .tit p {
   margin-bottom: 50px;
-  color: red;
+  color: white;
 }
 
 a {
@@ -79,10 +79,11 @@ a {
 .section1 img {
   width: 400px;
   margin-left: 20%;
-  margin-top: 40px !important;
+  margin-top: 60px !important;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 50px;
   border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
   height: 462px;
 }
 
@@ -91,7 +92,7 @@ hr {
 }
 
 .btn {
-  background: purple !important;
+  background: black !important;
   padding: 5px;
   border-radius: 1px;
   letter-spacing: 3px;
