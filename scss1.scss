@@ -113,18 +113,19 @@ a {
 	
 	.section1{
 	display:flex;
+	justify-content:space-around;
 	}
 	
 .section1 img{
 
     width: 400px;
-    margin-left: 20%;
     margin-top: 60px !important;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
 	border-top-right-radius:50px;
     height: 462px;
+	padding:20px;
 }
 
 
@@ -144,7 +145,7 @@ a {
   overflow: hidden; // Para ocultar qualquer conteúdo que exceda o botão
  
   position: absolute;
-  left:17%;
+
 }
 
  .btn span:nth-child(1){
@@ -253,3 +254,9 @@ a {
  
  }
  
+.caixabtn{
+	
+	display:flex;
+	justify-content:center;
+
+}
