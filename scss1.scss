@@ -18,38 +18,53 @@ header{
 
 }
 
+	.count{
+		
+		display:flex;
+		justify-content:space-around;
+		justify-content:center;
+		align-items:center;
+		colum-gap :4px;
+		
+	}
+
+ .count #a1{
+
+	height:150px;
+	width:150px;
+
+}
+
 .tit{
-display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top:0;
+	
+	display:flex;
+	flex-direction:column;;
+	justify-content:center;
+	margin-top:0;
+	text-align:center;
 }
 // Estilos para o título
 .titulo {
   font-size: $size; // Tamanho da fonte
   text-align: center; // Alinhamento central
   font-family: $titulo; // Fonte do título
-  font-weight: 300; // Peso da fonte
+  font-weight: 100; // Peso da fonte
   font-style: normal; // Estilo da fonte
   color: $cortitulo; // Cor do texto
+  text-align:center;
 }
 
-section1 h1 {
+.tit h1 {
   @extend .titulo;
-  padding: 0%;
-  margin-top: 30%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
+  color:black!important;
 }
   .section1 div p{
   
 	  color:white;
 	  text-align:center;
 	  font-size:20px;
-	  margin-left:50px;
-	  margin-top:20px;
+	 
+	 
   
   }
 
@@ -123,7 +138,7 @@ a {
 	justify-content:space-around;
 	}
 	
-.section1 img{
+.section1 #foto1{
 
     width: 400px;
     margin-top: 60px !important;
@@ -138,8 +153,8 @@ a {
 
 	hr{
 	 
-	 width:40%;
-		
+	 widht:auto;
+	 border:0.5px solid white;
 }
 
 .btn {
