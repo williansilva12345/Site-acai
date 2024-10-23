@@ -46,6 +46,7 @@ ul ul li a:nth-child(1) {
 
 .tit p {
   margin-bottom: 50px;
+  color: red;
 }
 
 a {
@@ -90,7 +91,7 @@ hr {
 }
 
 .btn {
-  background: purple;
+  background: purple !important;
   padding: 5px;
   border-radius: 1px;
   letter-spacing: 3px;
